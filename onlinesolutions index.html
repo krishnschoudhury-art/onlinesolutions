@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE SOLUTION | Professional CSC & Land Records Center</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-blue: #0a3d62;
+            --accent-orange: #f39c12;
+            --light-bg: #f4f7f6;
+        }
+
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--light-bg); }
+
+        /* Hero Section with "Real" feel */
+        .hero-image {
+            background: linear-gradient(rgba(10, 61, 98, 0.8), rgba(10, 61, 98, 0.8)), 
+                        url('https://lh3.googleusercontent.com/gps-cs-s/APNQkAGCKWsHzVrmk515b5I5FDC85okkvNVQVuJGKjBtXeDX1WQohxzKHjHoozST0fBduhfGaTfA40uL3tmktHhfiA8TBUFZot2C7dX-_CPc6OnOxN-TnpDdgv8GDpqMGqLM6vVsMFjTXjzds27T=w408-h306-k-no'); /* Professional Office BG */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .service-category {
+            font-weight: bold;
+            color: var(--primary-blue);
+            border-bottom: 3px solid var(--accent-orange);
+            display: inline-block;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .card-service {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+            height: 100%;
+            background: #ffffff;
+        }
+
+        .card-service:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.1);
+        }
+
+        .icon-box {
+            font-size: 2rem;
+            color: var(--accent-orange);
+            margin-bottom: 15px;
+        }
+
+        .list-group-item {
+            border: none;
+            padding: 5px 0;
+            background: transparent;
+            font-size: 0.95rem;
+        }
+
+        .list-group-item i {
+            color: #27ae60;
+            margin-right: 10px;
+        }
+
+        .badge-land { background-color: #2980b9; }
+        .footer { background: #1e272e; color: white; padding: 40px 0; }
+    </style>
+</head>
+<body>
+
+<header class="hero-image">
+    <div class="container">
+        <h1 class="display-3 fw-bold">ONLINE SOLUTION</h1>
+        <p class="fs-4">Authorized CSC Center & Cyber Cafe | Mission Basundhara & Bwiswmuthi Specialist</p>
+        <div class="mt-4">
+            <span class="badge bg-success p-2 px-3">E-District Services</span>
+            <span class="badge bg-primary p-2 px-3">Land Records</span>
+            <span class="badge bg-warning text-dark p-2 px-3">Travel Booking</span>
+        </div>
+    </div>
+</header>
+
+<div class="container my-5">
+    
+    <h3 class="service-category">Land & Revenue Services</h3>
+    <div class="row g-4 mb-5">
+        <div class="col-md-4">
+            <div class="card card-service p-4">
+                <div class="icon-box"><i class="fas fa-map-marked-alt"></i></div>
+                <h5>Basundhara/Bwiswmuthi</h5>
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="fas fa-check-circle"></i> Land Mutation Apply</li>
+                    <li class="list-group-item"><i class="fas fa-check-circle"></i> Land Partition Apply</li>
+                    <li class="list-group-item"><i class="fas fa-check-circle"></i> Land Register Apply</li>
+                    <li class="list-group-item"><i class="fas fa-check-circle"></i> NOC Land Permission</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-service p-4">
+                <div class="icon-box"><i class="fas fa-file-contract"></i></div>
+                <h5>Records & Corrections</h5>
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="fas fa-check-circle"></i> Jamabandi & Chitha Copy</li>
+                    <li class="list-group-item"><i class="fas fa-check-circle"></i> Name/Area Correction</li>
+                    <li class="list-group-item"><i class="fas fa-check-circle"></i> Mobile Number Update</li>
+                    <li class="list-group-item"><i class="fas fa-check-circle"></i> Name Cut from Jamabandi</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-service p-4">
+                <div class="icon-box"><i class="fas fa-chart-line"></i></div>
+                <h5>Valuation & Conversion</h5>
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="fas fa-check-circle"></i> Land Valuation Certificate</li>
+                    <li class="list-group-item"><i class="fas fa-check-circle"></i> Conversion (AP to PP)</li>
+                    <li class="list-group-item"><i class="fas fa-check-circle"></i> Reclassification Apply</li>
+                    <li class="list-group-item"><i class="fas fa-check-circle"></i> Non-Encumbrance (NEC)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <h3 class="service-category">E-District & Certificates</h3>
+    <div class="row g-4 mb-5">
+        <div class="col-md-3">
+            <div class="card card-service p-4 text-center">
+                <i class="fas fa-id-card icon-box"></i>
+                <h6>Identity Cards</h6>
+                <p class="small">PAN, Voter, Passport & Driving License Apply</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card card-service p-4 text-center">
+                <i class="fas fa-certificate icon-box"></i>
+                <h6>Legal Certificates</h6>
+                <p class="small">Income, Birth, Death & Next of Kin Certificates</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card card-service p-4 text-center">
+                <i class="fas fa-ring icon-box"></i>
+                <h6>Marriage</h6>
+                <p class="small">Issuance of Marriage Registration</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card card-service p-4 text-center">
+                <i class="fas fa-file-signature icon-box"></i>
+                <h6>Deed Services</h6>
+                <p class="small">Certified Copy of Registered Sale Deed</p>
+            </div>
+        </div>
+    </div>
+
+    <h3 class="service-category">Cyber Cafe & Travel</h3>
+    <div class="row g-4">
+        <div class="col-md-6">
+            <div class="card card-service p-4">
+                <div class="row">
+                    <div class="col-6">
+                        <h5>Printing Hub</h5>
+                        <ul class="list-group">
+                            <li class="list-group-item">Printing & Copying</li>
+                            <li class="list-group-item">High-Speed Scanning</li>
+                            <li class="list-group-item">Wi-Fi Access</li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <h5>Travel Booking</h5>
+                        <ul class="list-group">
+                            <li class="list-group-item">Flight & Train Tickets</li>
+                            <li class="list-group-item">Personal Car Booking</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 text-center">
+            <div class="card card-service p-4 bg-primary text-white">
+                <h4>Special Category Apply</h4>
+                <p>Khas Govt. Land & VGR Land Applications</p>
+                <hr>
+                <h5>All E-District Services Available</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>ONLINE SOLUTION</h4>
+                <p>Your one-stop destination for all government and digital needs in Assam.</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <p><i class="fas fa-phone"></i> Contact: +91 [Your Number]</p>
+                <p><i class="fas fa-map-marker-alt"></i> Location: [Your Village/Town, Assam]</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
+<div class="container my-5">
+    <div class="row align-items-center bg-white p-4 shadow-sm rounded">
+        <div class="col-md-6">
+            <h2 class="text-primary">Visit Our Center</h2>
+            <p>Get your land documents and certificates processed quickly at our modern cyber cafe located in the heart of the city.</p>
+            <p><strong>Opening Hours:</strong> 9:00 AM - 8:00 PM</p>
+        </div>
+        <div class="col-md-6">
+            <img src="office.jpg" alt="Online Solution Shop" class="img-fluid rounded shadow">
+        </div>
+    </div>
+</div>
